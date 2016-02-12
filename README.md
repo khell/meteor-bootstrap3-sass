@@ -8,11 +8,11 @@ Meteor package for Bootstrap 3 with Sass support
 To install
 ----------
 
-Install the `fourseven:scss` SCSS compiler package and the `reywood:bootstrap3-sass` package.
+Install the `fourseven:scss` SCSS compiler package and the `khell:bootstrap3-sass` package.
 
 ```sh
 $ meteor add fourseven:scss
-$ meteor add reywood:bootstrap3-sass
+$ meteor add khell:bootstrap3-sass
 ```
 
 To use
@@ -21,7 +21,7 @@ To use
 To activate bootstrap styles on your site, add the following line to the top of your main scss file:
 
 ```scss
-@import '{reywood:bootstrap3-sass}/bootstrap';
+@import '{khell:bootstrap3-sass}/bootstrap';
 ```
 
 Be sure to add the appropriate tags (as [recommended by Bootstrap](http://getbootstrap.com/getting-started/#template)) to your document `<head>` somewhere in your HTML. Where you add these tags is dependent on how your meteor project is structured.
@@ -39,6 +39,11 @@ Be sure to add the appropriate tags (as [recommended by Bootstrap](http://getboo
 </head>
 ```
 
+Credits
+------
+
+Project [forked](https://github.com/englue/meteor-bootstrap3-sass) from reywood:bootstrap3-sass. All credits go there.
+
 --------------------------------------------------------
 
-If you find a bug or would like to see an improvement made, please [file an issue on GitHub](https://github.com/reywood/meteor-bootstrap3-sass/issues).
+If you find a bug or would like to see an improvement made, please [file an issue on GitHub](https://github.com/khell/meteor-bootstrap3-sass/issues).
