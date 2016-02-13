@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'khell:bootstrap3-sass',
 	summary: 'Bootstrap 3 with Sass support',
-	version: '3.3.6',
+	version: '3.3.6_2',
 	git: 'https://github.com/khell/meteor-bootstrap3-sass'
 });
 
